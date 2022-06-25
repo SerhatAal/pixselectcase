@@ -15,7 +15,7 @@ import com.example.pixselectcase.utils.ImageClickListener;
 
 public class DetailAdapter extends RecyclerView.Adapter<DetailAdapter.DetailCardViewHolder> {
     private final Context mContext;
-    private DogImageResponse dogImageList;
+    private final DogImageResponse dogImageList;
     private final ImageClickListener listener;
 
     public DetailAdapter(Context mContext, DogImageResponse dogImageList, ImageClickListener listener) {
